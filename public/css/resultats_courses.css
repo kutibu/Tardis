@@ -1,0 +1,26 @@
+.table img{
+    width: 75%;
+}
+
+h1{
+    text-align: center;
+}
+
+#p1, #p2, #p3, #p4{
+    
+    display: block;
+    margin : auto;
+    text-align: center;
+}
+
+
+
+figure{
+    width: 100%;
+    margin: auto;
+}
+
+button{
+    display: block;
+    margin : auto;
+}

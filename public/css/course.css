@@ -1,0 +1,148 @@
+#main_course>h1{
+    text-align: center;
+}  
+
+.flex-container-course {
+    display: flex;
+    justify-content: center;
+}
+
+#info-course>h2{
+    text-align: center;
+}
+
+.flex-container-course > div {
+    width: 50%;
+}
+
+#info-course{
+    border: solid 0.5px;
+    border-color: lightgray;
+    border-radius: 10px;
+}
+
+#desc-course{
+    display: flex;
+    flex-direction: column;
+}
+#desc-course div{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 5%;
+}
+
+
+#flyer-course{
+    border: solid 1px;
+    border-color: gray;
+}
+
+.flex-container-telecharger {
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-telecharger > div {
+    width: 50%;
+} 
+
+.bouton-telecharger > a{
+    background-color: lightblue;
+    border: solid 0.5px;
+    border-color: #97c0e5;
+    font-size: 25px;
+    color: #073763;
+    padding: 3%;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 10px;
+}
+
+#table_details, #table_details td, #table_details th{
+    border: 1px solid gray;
+    padding: 1.75%;
+}
+
+#table_details th:nth-child(-n+2){
+    background-color: lightgray;
+}
+
+#table_details  th:nth-child(3){
+    background-color: #f9cb9c;
+}
+
+#table_details  tr td:nth-child(3){
+    background-color: #fce5cd;
+}
+
+#table_details{
+    width:100%;
+    margin-top:5%;
+    border-collapse: collapse;
+}
+
+#table_parcours{
+    width:100%;
+    margin-top:5%;
+    text-align:center;
+    border-collapse: collapse;
+}
+
+#table_parcours td{
+    background-color: lightgray;
+}
+
+#table_parcours, #table_parcours td, #table_parcours th{
+    border: 1px solid gray;
+    padding: 1.75%;
+}
+
+#table_parcours th:nth-child(-n+3){
+    background-color: lightblue;
+    color: white;
+}
+
+#cercle-label{
+    width:15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #f9cb9c;
+    float:left;
+    margin-right: 0.50%;
+}
+
+#text-label{
+    font-style: italic;
+    font-size: 15px;
+}
+
+#carre-pdf{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+}
+
+#tp_void{
+    background-color: #073763;
+    color: #073763;
+}
+
+
+.icon-course{
+    /*float:left;*/
+    width:15%;
+    margin-right: 5%;
+}
+
+.icondl-course{
+    width:5%;
+}
+
+
+
+#desc-course p{
+    align-self: center;
+}

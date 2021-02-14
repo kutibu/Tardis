@@ -1,0 +1,90 @@
+.titre_resultats h2{
+    text-align: center;
+}
+
+.Résultat_des_courses{
+    background-color:#e3e3e3;
+    width: 20%;
+    border-radius: 10%;
+    margin-left: 20%;
+    box-shadow: 5px 5px 5px #878787;
+    padding: 3%;
+}
+
+
+.Résultat_des_courses h3{
+    text-align: center;
+    font-size: 125%;
+}
+
+.Résultat_des_courses p{
+    text-align: center;
+    font-size: 150%;
+}
+
+.Résultat_des_courses a{
+    text-align: center;
+    font-size: 105%;
+
+}
+
+
+
+.Résultat_des_courses a:last-of-type{
+    border-radius: 8px;
+    background-color: #153D91;
+    color:white;
+    border-color:#153D91;
+    display: block;
+    margin : auto;
+    width: 50%;
+    height: 30%;
+    padding-top: 5%;
+
+}
+
+
+
+.Résultat_du_challenge{
+    background-color:#e3e3e3;
+    width: 20%;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px #878787;
+    margin-left: 5%;
+    padding: 3%;
+}
+
+
+.Résultat_du_challenge h3{
+    text-align: center;
+    font-size: 125%;
+}
+
+.Résultat_du_challenge p{
+    text-align: center;
+    font-size: 150%;
+}
+
+.Résultat_du_challenge a{
+    text-align: center;
+    font-size: 105%;
+    margin-left: 10%;
+}
+
+
+
+.Résultat_du_challenge a:last-of-type{
+    border-radius: 8px;
+    background-color: #153D91;
+    color:white;
+    border-color:#153D91;
+    display: block;
+    margin : auto;
+    width: 50%;
+    height: 30%;
+    padding-top: 5%;
+}
+
+.raw{
+    display: flex;
+}

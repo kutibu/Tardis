@@ -1,0 +1,148 @@
+/* ------------------------------------------------------------------- PAGE COUUUUUURSE -------------------------------------------------------------------------------------- */
+
+.grid_course{ 
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+} 
+
+#main_courses>h1{
+    text-align: center;
+}
+
+.flex-container-courses > div > div:nth-child(2) {
+    background-color: #f1f1f1;
+    margin: 30px;
+    padding: 20px;
+}
+
+.flex-container-courses > div > h2{
+    text-align: center;
+}
+
+.flex-container-courses > div {
+    width: 50%;
+}
+
+.flex-container-courses {
+    text-align:center;
+    display: flex;
+    border-radius: 20px;
+    border: solid 0.5px;
+    border-color:lightgray;
+    justify-content: center;
+    margin-bottom:5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.flyers-courses{
+    width:50%;
+}
+
+.flyers-container-courses{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+/* --- TEXT ---- */
+
+.text-courses{
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-left: 10%;
+}
+
+.text-courses>button{
+    font-weight: bold;
+    margin-top: 2%;
+    font-size: 22px;
+}
+
+.nom-courses{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.lieu-courses{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.numero-courses{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.date-courses{
+    font-size: 20px;
+    font-style: italic;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    #main_courses>h1{
+        font-size: 25px;
+    }
+
+    hr{
+        width: 400px;
+    }
+
+    .flex-container-courses{
+        flex-direction: column-reverse;
+    }
+
+    .flex-container-courses > div {
+        width: 100%;
+    }
+
+    .text-courses{
+        padding-left: 0%;
+    }
+
+  }
+
+@media (max-width: 767px){
+
+    .flex-container-courses{
+        flex-direction: column-reverse;
+    }
+
+    #main_courses>h1{
+        font-size: 25px;
+    }
+
+    hr{
+        width: 400px;
+    }
+
+    .flex-container-courses > div {
+        width: 100%;
+    }
+
+    .text-courses{
+        padding-left: 0%;
+    }
+    
+    .text-courses>button{
+        font-size: 12px;
+    }
+    
+    .nom-courses{
+        font-size: 15px;
+    }
+    
+    .lieu-courses{
+        font-size: 13px;
+    }
+    
+    .numero-courses{
+        font-size: 12px;
+    }
+    
+    .date-courses{
+        font-size: 12px;
+    }
+    
+
+  }

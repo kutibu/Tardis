@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+.resultat img{
+    width: 2%;
+}
+
+.resultat{
+    display: block;
+    margin : auto;
+    text-align: center;
+}
+
+.resultat a{
+    color: #1F879F;
+}
